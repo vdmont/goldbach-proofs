@@ -15,7 +15,7 @@ to binary Goldbach:
 * `arc-minor-saving`     : the minor arc floor (the stated target)
 
 Nothing in the repository connects them, and `research/gaps.json` records no
-dependency edges at all, so the claim "one lemma left" is not checkable there.
+dependency edges at all, so the claim that one lemma is left is not checkable there.
 This file makes it checkable.
 
 Two results:
@@ -66,7 +66,7 @@ noncomputable def eMajor (n : ℕ) : ℂ :=
     (0:ℝ) 1 MeasureTheory.volume
 
 /-- Glue lemma. Two families of catalogue entries write the same integrand with
-different but merely propositionally equal syntax: the `I`-style entries write
+different but merely propositionally equal spelling: the `I`-style entries write
 `S a u * S b u`, the `minor`/`major`-style entries write `(S w t)^2`. The
 composed chain needs this rewrite. -/
 theorem eMinor_eq_eI (n : ℕ) : eMinor n = eI n eW eW := by
